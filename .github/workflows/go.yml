@@ -1,0 +1,14 @@
+on: [push, pull_request]
+name: Test
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v2
+      - name: Set up Go
+        uses: actions/setup-go@v2
+      - name: Run tests
+        run: go test -v -race
