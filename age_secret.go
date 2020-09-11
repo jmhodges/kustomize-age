@@ -24,7 +24,7 @@ type plugin struct {
 	types.ObjectMeta `json:"metadata,omitempty" yaml:"metadata,omitempty" protobuf:"bytes,1,opt,name=metadata"`
 	types.SecretArgs
 
-	AgeKeyEnvVar string `json:"ageKeyEnvVar,omitempty"`
+	AgeKeyEnvVar string `json:"ageKeyEnvVar,omitempty yaml:"ageKeyEnvVar,omitempty" protobuf:"bytes,1,opt,name=ageKeyEnvVar`
 }
 
 //noinspection GoUnusedGlobalVariable
