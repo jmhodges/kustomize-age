@@ -1,4 +1,4 @@
-// Copyright 2020 Jeff Hodges
+// Copyright 2020 Jeffrey M Hodges
 // SPDX-License-Identifier: Apache-2.0
 
 package main
