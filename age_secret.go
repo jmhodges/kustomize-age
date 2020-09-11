@@ -51,7 +51,7 @@ func (p *plugin) Generate() (resmap.ResMap, error) {
 	}
 	ident, err := age.ParseX25519Identity(key)
 	if err != nil {
-		return nil, fmt.Errorf("Couldn't parse the age key env var %#v as an age key: %w", p.AgeKeyEnvVar, err)
+		return nil, fmt.Errorf("Couldn't parse the env var %#v as an age key: %w", p.AgeKeyEnvVar, err)
 	}
 	for _, file := range args.FileSources {
 		encFilePath := file + ".age"
