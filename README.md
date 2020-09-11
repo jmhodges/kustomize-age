@@ -1,8 +1,9 @@
 kustomize-age is a plugin for `kustomize` that allows the user to keep local
 files encrypted with `age` that are decrypted before being used as `files`
-inside a kubernetes  `Secret`. It's a placeholder until sops, and kustomize-sops
-can support age, but unlike sops it does not encrypt the whole `Secret` yaml
-file, but just the files mentioned in the `Secret`'s `files attribute.
+inside a kubernetes `Secret`.
+
+Unlike kustomize-sops it does not encrypt the whole `Secret` yaml file, but just
+the files mentioned in the `Secret`'s `files` attribute.
 
 Use
 ===
