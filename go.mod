@@ -4,6 +4,7 @@ go 1.14
 
 require (
 	filippo.io/age v1.0.0-beta4
+	github.com/pkg/errors v0.9.1 // indirect
 	sigs.k8s.io/kustomize/api v0.6.0
 	sigs.k8s.io/yaml v1.2.0
 )
