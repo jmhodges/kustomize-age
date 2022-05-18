@@ -5,7 +5,7 @@ go 1.18
 require (
 	filippo.io/age v1.0.0
 	sigs.k8s.io/kustomize/api v0.11.4
-	sigs.k8s.io/yaml v1.2.0
+	sigs.k8s.io/yaml v1.3.0
 )
 
 require (
