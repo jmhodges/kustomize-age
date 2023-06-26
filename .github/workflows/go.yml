@@ -1,6 +1,14 @@
-on: [push, pull_request]
 name: Test
 
+on:
+  push:
+    branches:
+      - main
+      - "test_*"
+      - "test-*"
+  pull_request:
+
+      
 jobs:
   build:
     name: Build
